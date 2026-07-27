@@ -1,5 +1,17 @@
 # Sistema de Gestión de Docentes — Mantenimiento CRUD
 
+<img width=50% alt="parte1-crud" src="https://github.com/user-attachments/assets/158574d7-de1a-4b05-9ce1-b24f3aa4a8a8" />
+
+<img width=50% alt="parte2-crud" src="https://github.com/user-attachments/assets/0d044729-381a-43e5-be8b-030dd0a7f6bc" />
+
+<img width=50% alt="parte3-crud" src="https://github.com/user-attachments/assets/07a0ba07-bad1-44d8-8269-5fa27e6828d7" />
+
+<img width=50% alt="parte4-crud" src="https://github.com/user-attachments/assets/918d7826-a346-45ff-82ee-41dd9cf0328b" />
+
+<img width=50% alt="parte5-crud" src="https://github.com/user-attachments/assets/8e0e2362-2a76-4e55-aaa1-41abf04a0294" />
+
+<img width=50% alt="parte6-crud" src="https://github.com/user-attachments/assets/842a3c34-d9f8-4618-9fec-d54c08e8ce83" />
+
 ### El Problema
 Las instituciones educativas que gestionan la información de su personal docente mediante procesos manuales o archivos descentralizados enfrentan inconsistencia en los datos, riesgo de duplicidad, falta de validación de correos/identificadores y pérdida de información al no contar con un repositorio centralizado.
 
