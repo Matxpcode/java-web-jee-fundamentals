@@ -1,7 +1,5 @@
 # Sistema de Gestión de Docentes — Mantenimiento CRUD
 
-## Problema y Solución
-
 ### El Problema
 Las instituciones educativas que gestionan la información de su personal docente mediante procesos manuales o archivos descentralizados enfrentan inconsistencia en los datos, riesgo de duplicidad, falta de validación de correos/identificadores y pérdida de información al no contar con un repositorio centralizado.
 
@@ -12,12 +10,12 @@ Se desarrolló una **aplicación web centralizada para la administración de pro
 
 ## 🛠️ Tecnologías y Herramientas
 
-* **Lenguaje de Programación:** Java 11+ (Java EE / Jakarta EE)
+* **Lenguaje de Programación:** Java 21 (Java EE / Jakarta EE)
 * **Arquitectura & Patrones:** MVC (Modelo-Vista-Controlador) y Patrón DAO (Data Access Object)
 * **Controlador Web:** Java Servlets (`HttpServlet` con enrutamiento dinámico por `getPathInfo()`)
 * **Acceso a Datos:** JDBC puro (`PreparedStatement`, `ResultSet`, `DriverManager`)
 * **Base de Datos:** MySQL Server
-* **Interfaz de Usuario (Vistas):** JSP (JavaServer Pages) & Bootstrap 5
+* **Interfaz de Usuario (Vistas):** JSP (JavaServer Pages/Scriptlets/Expresiones) & Bootstrap 5
 * **Servidor de Aplicaciones:** Apache Tomcat 9.0+
 * **IDE & Control de Versiones:** Eclipse IDE & Git / GitHub
 
