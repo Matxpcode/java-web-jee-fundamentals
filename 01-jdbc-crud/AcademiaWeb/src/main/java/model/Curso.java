@@ -4,18 +4,22 @@ public class Curso {
 
 	private Integer id;
 	private String nombre;
-	private String nivel;
+	private Character nivel;
 	private Double precio;
 	private Boolean activo;
 	
-	public Curso() {}
+	//Foreign Key (conexion)(composicion de objetos)
+	private Profesor profesor;
 	
-	public Curso(Integer id, String nombre, String nivel, Double precio, Boolean activo) {
+	public Curso() {}
+
+	public Curso(Integer id, String nombre, Character nivel, Double precio, Boolean activo, Profesor profesor) {
 		this.id = id;
 		this.nombre = nombre;
 		this.nivel = nivel;
 		this.precio = precio;
 		this.activo = activo;
+		this.profesor = profesor;
 	}
 
 	public Integer getId() {
@@ -34,11 +38,11 @@ public class Curso {
 		this.nombre = nombre;
 	}
 
-	public String getNivel() {
+	public Character getNivel() {
 		return nivel;
 	}
 
-	public void setNivel(String nivel) {
+	public void setNivel(Character nivel) {
 		this.nivel = nivel;
 	}
 
@@ -57,6 +61,13 @@ public class Curso {
 	public void setActivo(Boolean activo) {
 		this.activo = activo;
 	}
-	
+
+	public Profesor getProfesor() {
+		return profesor;
+	}
+
+	public void setProfesor(Profesor profesor) {
+		this.profesor = profesor;
+	}
 	
 }
