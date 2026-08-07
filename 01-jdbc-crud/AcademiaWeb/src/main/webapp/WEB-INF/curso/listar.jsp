@@ -20,6 +20,11 @@
 	%>
 
 	<div class="container" id="tablaCursos">
+		<div class="mb-3">
+			<a href="nuevo" class="btn btn-success"><i
+				class="fa-solid fa-plus"></i>Nuevo</a>
+		</div>
+		
 		<table class="table">
 			<thead>
 				<tr>
@@ -57,8 +62,9 @@
 					</td>
 					<td><%=c.getProfesor().getNombres()+" "+c.getProfesor().getApellidos()%></td>	
 					<td>
-						<a href="" class="btn btn-warning">Actualizar</a>
-						<a href="" class="btn btn-danger">Eliminar</a>
+						<a href="editar?id=<%=c.getId()%>" class="btn btn-warning">Editar</a>
+						<a href="eliminar?id=<%=c.getId() %>" class="btn btn-danger"
+						onclick="return confirm('¿Estas seguro de desactivar este curso?(accion irreversible)')">Eliminar</a>
 					</td>
 				</tr>
 				
